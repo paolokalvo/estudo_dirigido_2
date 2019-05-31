@@ -1,0 +1,4 @@
+#Faça Um Programa em Python que aceite o raio de um círculo do usuário e calcule a área.
+r = float (input('Entre com o Valor do raio da Circunfêrencia :   '))
+Circ = 2* 3.14 * r
+print('A circunferencia é : {:.2f}'.format(Circ))
