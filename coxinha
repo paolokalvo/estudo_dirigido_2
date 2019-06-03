@@ -1,0 +1,17 @@
+
+Salgado =  int(input("Digite qual salgado você deseja : Coxinha = 1 , Risoles = 2 ou Kibe = 3 : ---->   Solicite pelo codigo   "))
+Qnt = int(input("Informe a quantidade que deseja "))
+Coxinha = 1
+Risoles = 2
+Kibe = 3
+preço1 = 3.50
+preço2 = 4.50
+preço3 = 5.50
+if Coxinha :
+     print("O valor total das coxinhas é  ",preço1*Qnt ,'Reais' )
+elif Risoles :
+     print("O Valor total dos risoles é" , 2*Qnt*preço2 , "Reais")
+elif Kibe :
+     print("O Valor total dos risoles é", 3 * Qnt * preço3, "Reais")
+else :
+     print("VAI TE EMBORA!!!!!! ")
