@@ -1,0 +1,18 @@
+!!!!!!!!!!!. F.U.P. que calcule o tempo de utilização de um patinete elétrico. Você deve
+saber que existe uma taxa de utilização que permite ao usuário utilizar o patinete
+por 10 minutos que é de R$5,00. Passando disso o preço é acrescido de 20% por
+minuto. Ao final da utilização deve ser mostrado ao usuário o quanto deve pagar
+pela utlização.
+Solução feita em sala!!!!!!!!!!!!!!!!!!!!!!!
+
+preco = 5
+tempo_excedente = 0
+tempo_minutos = int(input("Tempo utilizado: "))
+if tempo_minutos <= 10:
+ print("Valor a ser paga: ", preco)
+else:
+ tempo_minutos > 10
+ tempo_excedente = (tempo_minutos - 10)
+ preco = 5 + (tempo_excedente * 5 * 0.2)
+ print("Valor a ser pago: ", preco)
+
