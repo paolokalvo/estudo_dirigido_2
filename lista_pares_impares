@@ -1,0 +1,12 @@
+lista_pares =[]
+lista_impares = []
+numeros = 0
+while numeros < 10:
+ x = int(input("Digite um número: "))
+ if x % 2 == 0:
+    lista_pares.append(x)
+ else:
+    lista_impares.append(x)
+    numeros += 1
+    print("A quantidade de números pares é: ",len(lista_pares))
+    print("A quantidade de números impares é: ",len(lista_impares))
